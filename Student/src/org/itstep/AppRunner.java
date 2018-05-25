@@ -6,8 +6,7 @@ public class AppRunner {
 
 	public static void main(String[] args) {
 		
-		StudentData studentData = new StudentData();
-		StudentService studentService = new StudentService();
+			StudentService studentService = new StudentService();
 		StudentData[] studentName = studentService.getStudentInArray();
 		for(int i = 0; i <studentName.length; i++) {
 			//if(studentName[i].getFirstName() == "Tata") {
